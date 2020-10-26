@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animated_circle_page.dart';
+import 'rotating_circle_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedCirclePage(),
+      home: RotatingCirclePage(),
       debugShowCheckedModeBanner: false,
     );
   }
